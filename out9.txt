@@ -1,0 +1,110 @@
+johnhickman@Johns-iMac streaming-02-multiple-processes %  /usr/bin/env /opt/home
+brew/bin/python3 /Users/johnhickman/.vscode/extensions/ms-python.python-2023.14.
+0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 54624 -- /Users/
+johnhickman/streaming-02-multiple-processes/process_streaming_0.py 
+2023-09-03 14:35:33,784 - INFO - ===============================================
+2023-09-03 14:35:33,784 - INFO - Starting fake streaming process.
+2023-09-03 14:35:33,784 - INFO - Starting to stream data from batchfile_0_farenheit.csv to ('localhost', 9999).
+2023-09-03 14:35:33,784 - INFO - Opened for reading: batchfile_0_farenheit.csv.
+2023-09-03 14:35:33,785 - INFO - Skipped header row: ['\ufeffYear', 'Month', 'Day', 'Time', 'TempF']
+2023-09-03 14:35:33,787 - INFO - Sent: b'[2023, 1, 3, 7:55, 12]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 14:35:36,789 - INFO - Sent: b'[2023, 1, 3, 7:35, 12]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 14:35:39,795 - INFO - Sent: b'[2023, 1, 3, 7:15, 12]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 14:35:42,797 - INFO - Sent: b'[2023, 1, 3, 6:55, 12]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 14:35:45,804 - INFO - Sent: b'[2023, 1, 3, 6:35, 12]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 14:35:48,810 - INFO - Sent: b'[2023, 1, 3, 6:15, 12]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 14:35:51,812 - INFO - Sent: b'[2023, 1, 3, 5:55, 12]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 14:35:54,814 - INFO - Sent: b'[2023, 1, 3, 5:35, 12]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 14:35:57,820 - INFO - Sent: b'[2023, 1, 3, 5:15, 12]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 14:36:00,826 - INFO - Sent: b'[2023, 1, 3, 4:55, 12]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 14:36:03,832 - INFO - Sent: b'[2023, 1, 3, 4:35, 12]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 14:36:06,834 - INFO - Sent: b'[2023, 1, 3, 4:15, 14]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 14:36:09,837 - INFO - Sent: b'[2023, 1, 3, 3:55, 14]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 14:36:12,843 - INFO - Sent: b'[2023, 1, 3, 3:35, 14]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 14:36:15,849 - INFO - Sent: b'[2023, 1, 3, 3:15, 14]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 14:36:18,850 - INFO - Sent: b'[2023, 1, 3, 2:55, 14]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 14:36:21,855 - INFO - Sent: b'[2023, 1, 3, 2:35, 14]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 14:36:24,858 - INFO - Sent: b'[2023, 1, 3, 2:15, 14]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 14:36:27,865 - INFO - Sent: b'[2023, 1, 3, 1:55, 14]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 14:36:30,867 - INFO - Sent: b'[2023, 1, 3, 1:35, 14]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 14:36:33,869 - INFO - Sent: b'[2023, 1, 3, 1:15, 16]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 14:36:36,873 - INFO - Sent: b'[2023, 1, 3, 0:55, 16]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 14:36:39,878 - INFO - Sent: b'[2023, 1, 3, 0:35, 16]' on port 9999. Hit CTRL-c to stop.
+johnhickman@Johns-iMac streaming-02-multiple-processes %  cd /Users/johnhickman/streaming-02-multiple-processes ; /usr/bin/env /opt/homebrew/bin/python3 /Users/johnhickman/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/python/debugpy/adap
+ter/../../debugpy/launcher 54659 -- /Users/johnhickman/streaming-02-multiple-processes/process_streaming_hickman.py 
+2023-09-03 15:04:10,902 - INFO - ===============================================
+2023-09-03 15:04:10,902 - INFO - Starting fake streaming process.
+2023-09-03 15:04:10,902 - INFO - Starting to stream data from batchfile_MARS_Ticker.csv to ('localhost', 9999).
+2023-09-03 15:04:10,902 - INFO - Opened for reading: batchfile_MARS_Ticker.csv.
+2023-09-03 15:04:10,902 - INFO - Skipped header row: ['Year', 'Month', 'Day', 'Time', 'PriceUSD']
+2023-09-03 15:04:10,904 - INFO - Sent: b'[2023, 1, 3, 8:55, 14.80]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:04:13,910 - INFO - Sent: b'[2023, 1, 3, 9:35, 14.86]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:04:16,916 - INFO - Sent: b'[2023, 1, 3, 10:15, 14.90]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:04:19,923 - INFO - Sent: b'[2023, 1, 3, 10:55, 14.90]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:04:22,928 - INFO - Sent: b'[2023, 1, 3, 11:35, 14.85]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:04:25,934 - INFO - Sent: b'[2023, 1, 3, 12:15, 15.10]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:04:28,937 - INFO - Sent: b'[2023, 1, 3, 12:55, 15.10]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:04:31,939 - INFO - Sent: b'[2023, 1, 3, 13:35, 14.95]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:04:34,941 - INFO - Sent: b'[2023, 1, 3, 14:15, 14.95]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:04:37,947 - INFO - Sent: b'[2023, 1, 3, 14:55, 15.04]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:04:40,953 - INFO - Sent: b'[2023, 1, 3, 13:35, 15.96]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:04:43,960 - INFO - Sent: b'[2023, 1, 3, 16:15, 16.10]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:04:46,962 - INFO - Sent: b'[2023, 1, 3, 16:55, 15.95]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:04:49,969 - INFO - Sent: b'[2023, 1, 3, 17:35, 15.95]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:04:52,975 - INFO - Sent: b'[2023, 1, 3, 18:15, 15.97]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:04:55,981 - INFO - Sent: b'[2023, 1, 3, 18:55, 15.97]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:04:58,985 - INFO - Sent: b'[2023, 1, 3, 19:35, 15.96]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:05:01,990 - INFO - Sent: b'[2023, 1, 3, 20:15, 15.96]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:05:04,997 - INFO - Sent: b'[2023, 1, 3, 20:55, 15.95]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:05:08,000 - INFO - Sent: b'[2023, 1, 3, 21:35, 15.96]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:05:11,006 - INFO - Sent: b'[2023, 1, 3, 22:15, 15.97]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:05:14,009 - INFO - Sent: b'[2023, 1, 3, 22:55, 15.95]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:05:17,015 - INFO - Sent: b'[2023, 1, 3, 23:35, 15.96]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:05:20,019 - INFO - Sent: b'[2023, 1, 3, 23:15, 15.97]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:05:23,024 - INFO - Sent: b'[2023, 1, 2, 23:55, 16.01]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:05:26,027 - INFO - Sent: b'[2023, 1, 2, 23:35, 16.01]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:05:29,033 - INFO - Sent: b'[2023, 1, 2, 23:15, 16.01]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:05:32,039 - INFO - Sent: b'[2023, 1, 2, 22:55, 16.01]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:05:35,045 - INFO - Sent: b'[2023, 1, 2, 22:35, 16.02]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:05:38,051 - INFO - Sent: b'[2023, 1, 2, 22:15, 16.03]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:05:41,058 - INFO - Sent: b'[2023, 1, 2, 21:55, 16.03]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:05:44,064 - INFO - Sent: b'[2023, 1, 2, 21:35, 16.05]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:05:47,070 - INFO - Sent: b'[2023, 1, 2, 21:15, 16.01]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:05:50,077 - INFO - Sent: b'[2023, 1, 2, 20:55, 16.02]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:05:53,080 - INFO - Sent: b'[2023, 1, 2, 20:35, 18.01]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:05:56,086 - INFO - Sent: b'[2023, 1, 2, 20:15, 18.02]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:05:59,092 - INFO - Sent: b'[2023, 1, 2, 19:55, 18.03]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:06:02,099 - INFO - Sent: b'[2023, 1, 2, 19:35, 18.04]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:06:05,103 - INFO - Sent: b'[2023, 1, 2, 19:15, 18.05]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:06:08,109 - INFO - Sent: b'[2023, 1, 2, 18:55, 18.06]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:06:11,115 - INFO - Sent: b'[2023, 1, 2, 18:35, 18.07]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:06:14,117 - INFO - Sent: b'[2023, 1, 2, 18:15, 18.08]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:06:17,122 - INFO - Sent: b'[2023, 1, 2, 17:55, 18.09]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:06:20,126 - INFO - Sent: b'[2023, 1, 2, 17:35, 18.10]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:06:23,128 - INFO - Sent: b'[2023, 1, 2, 17:15, 19.02]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:06:26,128 - INFO - Sent: b'[2023, 1, 2, 16:55, 19.03]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:06:29,128 - INFO - Sent: b'[2023, 1, 2, 16:35, 19]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:06:32,130 - INFO - Sent: b'[2023, 1, 2, 16:15, 19]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:06:35,131 - INFO - Sent: b'[2023, 1, 2, 15:55, 19]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:06:38,132 - INFO - Sent: b'[2023, 1, 2, 15:35, 19]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:06:41,134 - INFO - Sent: b'[2023, 1, 2, 15:15, 19]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:06:44,137 - INFO - Sent: b'[2023, 1, 2, 14:55, 19]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:06:47,142 - INFO - Sent: b'[2023, 1, 2, 14:35, 19]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:06:50,142 - INFO - Sent: b'[2023, 1, 2, 14:15, 18]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:06:53,146 - INFO - Sent: b'[2023, 1, 2, 13:55, 18]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:06:56,150 - INFO - Sent: b'[2023, 1, 2, 13:35, 19]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:06:59,153 - INFO - Sent: b'[2023, 1, 2, 13:15, 19]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:07:02,159 - INFO - Sent: b'[2023, 1, 2, 12:55, 19]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:07:05,161 - INFO - Sent: b'[2023, 1, 2, 12:35, 18]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:07:08,166 - INFO - Sent: b'[2023, 1, 2, 12:15, 18]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:07:11,171 - INFO - Sent: b'[2023, 1, 2, 11:55, 18]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:07:14,173 - INFO - Sent: b'[2023, 1, 2, 11:35, 18]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:07:17,179 - INFO - Sent: b'[2023, 1, 2, 11:15, 18]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:07:20,185 - INFO - Sent: b'[2023, 1, 2, 10:55, 18]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:07:23,190 - INFO - Sent: b'[2023, 1, 2, 10:35, 18]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:07:26,195 - INFO - Sent: b'[2023, 1, 2, 10:15, 18]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:07:29,201 - INFO - Sent: b'[2023, 1, 2, 9:55, 18]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:07:32,207 - INFO - Sent: b'[2023, 1, 2, 9:35, 18]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:07:35,210 - INFO - Sent: b'[2023, 1, 2, 9:15, 18]' on port 9999. Hit CTRL-c to stop.
+2023-09-03 15:07:38,216 - INFO - Sent: b'[2023, 1, 2, 8:55, 18]' on port 9999. Hit CTRL-c to stop.
+johnhickman@Johns-iMac streaming-02-multiple-processes % 

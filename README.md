@@ -18,37 +18,25 @@ hitting a shared database at the same time.
 
 ## Task 1. Fork 
 
-Fork this repository ("repo") into **your** GitHub account. 
+Forked this repository ("repo") to my GitHub account. 
 
 ## Task 2. Clone
 
-Clone **your** new GitHub repo down to the Documents folder on your local machine. 
+Cloned  my new GitHub repo down to the Documents folder on my local machine. 
 
 ## Task 3. Explore
 
-Explore your new project repo in VS Code on your local machine.
+Explored your new project repo in VS Code on your local machine.
 
 ## Task 4. Execute Check Script
 
-Execute 00_check_core.py to generate useful information.
+Execute 00_check_core.py to generate useful information and produced 00_report_core.txt with output of the environment 
 
 ## Task 5. Execute Multiple Processes Project Script
 
-Execute multiple_processes.py.
+Executed multiple_processes.py.
 
-Read the output. Read the code. 
-Try to figure out what's going on. 
-
-1. What libraries did we import?
-1. Where do we set the TASK_DURATION_SECONDS?
-1. How many functions are defined? 
-1. What are the function names? 
-1. In general, what does each function do? 
-1. Where does the execution begin? Hint: generally at the end of the file.
-1. How many processes do we start?
-1. How many records does each process insert?
-
-In this first run, we start 3 processes, 
+In this first run, we started 3 processes, 
 each inserting 2 records into a shared database 
 (for a total of 6 records inserted.)
 
@@ -56,32 +44,25 @@ In each case, the process gets a connection to the database,
 and a cursor to execute SQL statements.
 It inserts a record, and exits the database quickly.
 
-In general, we're successful and six new records get inserted. 
+In general, we're successful and six new records get inserted into shared.db 
 
 ## Task 6. Execute Multiple Processes Script with Longer Tasks
 
-For the second run, modify the task duration to make each task take 3 seconds. 
-Hint: Look for the TODO.
-Run the script again. 
-With the longer tasks, we now get into trouble - 
-one process will have the database open and be working on it - 
-then when another process tries to do the same, it can't and 
-we end up with errors. 
+For the second run, modify the task duration to make each task take 3 seconds by modifying the TODO parameter from 0 to 3 which results in several locking errors. 
 
 ## Task 7. Document Results After Each Run
 
-To clear the terminal, in the terminal window, type clear and hit enter or return. 
+Used out0.txt to document the '0' run
 
-`clear`
+Used out3.txt to document the '3' run.
 
-To document results, clear the terminal, run the script, and paste all of the terminal contents into the output file.
+## Task 8. Run process_streaming_0.py (+batchfile_0_farenheit.csv)
 
-Use out0.txt to document the first run. 
+Used files from streaming-01 repo to stream 
 
-Use out3.txt to document the second run.
+## Task 9. Custom Files to simulate streaming 
 
-
------
+Created files process_steaming_hickman.py + batchfile_MARS_Ticker.csv to create a custom streaming example. CSV files simulates updates to a equity price. Output saved to out9.txt 
 
 ## Helpful Information
 

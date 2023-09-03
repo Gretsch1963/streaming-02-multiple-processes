@@ -5,3 +5,58 @@ This will clear the console output.
 Run the file once while the tasks are short. 
 
 Copy and paste the terminal results (when task_duration is 0) here.
+
+
+johnhickman@Johns-iMac streaming-02-multiple-processes %  cd /Users/johnhickman/streaming-02-multiple-processes ; /usr/bin/env /opt/homebrew/bin/python3 /Users/johnhickman/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy
+/launcher 54505 -- /Users/johnhickman/streaming-02-multiple-processes/multiple_processes.py 
+2023-09-03 13:05:04,029 - INFO - 
+======================================================================
+STARTING UP.............................
+  Date and Time:    2023-09-03 at 01:05 PM
+  Operating System: posix Darwin 22.5.0
+  Python Version:   3.11.4
+  Path to Interpreter:  /opt/homebrew/opt/python@3.11/bin/python3.11
+======================================================================
+
+2023-09-03 13:05:04,029 - INFO - Called recreate_database().
+2023-09-03 13:05:04,029 - INFO - Called drop_table().
+2023-09-03 13:05:04,032 - INFO - Table 'pets' dropped successfully.
+2023-09-03 13:05:04,032 - INFO - Called create_table().
+2023-09-03 13:05:04,032 - INFO - Table 'pets' created successfully.
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+2023-09-03 13:05:04,291 - INFO - Called process_one().
+2023-09-03 13:05:04,292 - INFO -   Called insert_pet() with process=P1, name=Ace, breed=Dog.
+2023-09-03 13:05:04,293 - INFO -   Called insert_pet() with process=P1, name=Buddy, breed=Dog.
+2023-09-03 13:05:04,298 - INFO - Called process_three().
+2023-09-03 13:05:04,299 - INFO -   Called insert_pet() with process=P3, name=Emma, breed=Rabbit.
+2023-09-03 13:05:04,300 - INFO -   Called insert_pet() with process=P3, name=Felix, breed=Cat.
+2023-09-03 13:05:04,305 - INFO - Called process_two().
+2023-09-03 13:05:04,305 - INFO -   Called insert_pet() with process=P2, name=Cooper, breed=Rabbit.
+2023-09-03 13:05:04,306 - INFO -   Called insert_pet() with process=P2, name=Dingo, breed=Dog.
+2023-09-03 13:05:05,148 - INFO - 
+SUCCESS: All processes successfully completed!
+
+Now - increase the task duration (representing 
+      the time the task has the database 
+      tied up during an insert statement).
+How well do multiple, concurrent processes share a database 
+    when each task takes more time? 
+How can multiple processes share a resource
+    without interfering with each other?
+
+johnhickman@Johns-iMac streaming-02-multiple-processes % 
